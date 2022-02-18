@@ -56,21 +56,20 @@ body {
   flex-direction: column;
   flex: 1;
   justify-content: space-between;
-  align-items: center;
 }
 
-.div-arriba {
-  padding: 0 20px;
+.content-left-arriba {
   font-size: 60px;
+  padding: 0 60px;
 }
 
 .highlight {
   color: #ded5c6;
 }
 
-.div-abajo {
-  padding: 0 20px;
+.content-left-abajo {
   font-size: 20px;
+  padding: 0 60px;
 }
 
 .content-left button {
@@ -80,6 +79,7 @@ body {
   border-radius: 20px;
   padding: 0 19px;
   border: none;
+  align-self: center;
 }
 
 .content-right {
